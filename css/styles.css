@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(185,44,62);
+    background-color: rgb(185, 44, 62);
     background-color: linear-gradient(67deg, rgba(185,44,62,1) 0%, rgba(142,27,43,1) 100%);
     background-image: url(../img/lewishamilton.png);
     background-repeat: no-repeat;
@@ -69,6 +69,8 @@ li p {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
     background-color: rgb(13, 49, 113, .50);
     backdrop-filter: blur(5px);
